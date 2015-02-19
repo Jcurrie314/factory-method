@@ -1,1 +1,1 @@
-# [factory-method](http://factory-method.io)
+# [factory-method](http://factorymethod.io)
