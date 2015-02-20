@@ -332,12 +332,12 @@
 }
 
 .content-style-form-4 form button {
-	background: #00CC66;
+	background: #95a5a6;
 }
 
 .content-style-form-4 form button:focus,
 .content-style-form-4 form button:hover {
-	background: #00CC77;
+	background: #f39c12;
 }
 
 .js .content-style-form-4 p {

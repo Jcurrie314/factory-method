@@ -555,6 +555,8 @@ Navigation
     cursor: pointer;
 }
 
+
+
 .nav-toggle:focus {
     outline: none;
 }
@@ -740,7 +742,7 @@ Features Slider
     position: relative;
     padding: 11% 100px 10% 100px;
     height: 400px;
-    background-color: #16a085;
+    background-color: #f39c12;
 }
 
 .features-slider ul {
@@ -814,7 +816,7 @@ Features List
     margin-right: 25px;
     width: 90px;
     height: 90px;
-    border: solid 2px #4e9ba3;
+    border: solid 2px #f39c12;
     border-radius: 50%;
     vertical-align: top;
     text-align: center;
@@ -823,7 +825,7 @@ Features List
 }
 
 .feature-icon i {
-    color: #4e9ba3
+    color: #f39c12
 }
 
 /* ==========================================================================
@@ -1041,7 +1043,7 @@ updates Now
 ========================================================================== */
 .updates {
     padding: 120px 0;
-    background-color: #16a085;
+    background-color: #95a5a6;
 }
 
 .updates h1 {
@@ -1076,7 +1078,7 @@ footer li {
 }
 
 footer li a {
-    color: #16a085
+    color: #95a5a6
 }
 
 footer li:last-child {
@@ -1098,7 +1100,7 @@ Nav Overlay
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(22, 160, 133, .95);
+    background: rgba(236, 240, 241,.95);
 }
 
 /* Menu style */
@@ -1143,8 +1145,8 @@ Nav Overlay
     min-width: 190px;
     border: 2px solid #fff;
     border-radius: 3px;
-    background-color: #16a085;
-    color: #fff;
+    background-color: #ecf0f1;
+    color: #111;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 15px;
@@ -1153,8 +1155,8 @@ Nav Overlay
 }
 
 .overlay ul li a:hover, .overlay ul li a:focus {
-    border-color: #16a085;
-    color: #111;
+    border-color: #f39c12;
+    color: #f39c12;
 }
 
 /* Effects */
@@ -1205,6 +1207,8 @@ Nav Overlay
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+
 
 /* ==========================================================================
 Waypoints
