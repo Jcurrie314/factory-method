@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4198c232-33a4-4ac5-bea8-44bac603444e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/features-intro-01.jpg" afterPath="$PROJECT_DIR$/src/img/features-intro-01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/hero-01.jpg" afterPath="$PROJECT_DIR$/src/img/hero-01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/logo.png" afterPath="$PROJECT_DIR$/src/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/component.css" afterPath="$PROJECT_DIR$/src/css/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/content.css" afterPath="$PROJECT_DIR$/src/css/content.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/styles.css" afterPath="$PROJECT_DIR$/src/css/styles.css" />
     </list>
     <ignored path="factory-method.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +39,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.7647057" vertical-offset="642" max-vertical-offset="5025">
-              <caret line="59" column="53" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="53" />
+            <state vertical-scroll-proportion="-4.7647057" vertical-offset="762" max-vertical-offset="5025">
+              <caret line="67" column="81" selection-start-line="67" selection-start-column="74" selection-end-line="67" selection-end-column="81" />
               <folding>
-                <marker date="1424465039000" expanded="true" signature="2369:2522" placeholder="..." />
-                <marker date="1424465039000" expanded="true" signature="2462:2490" placeholder="..." />
+                <marker date="1424465600000" expanded="true" signature="2369:2522" placeholder="..." />
+                <marker date="1424465600000" expanded="true" signature="2462:2490" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -78,8 +72,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19389111" vertical-offset="8194" max-vertical-offset="18570">
-              <caret line="556" column="0" selection-start-line="556" selection-start-column="0" selection-end-line="556" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.45285526" vertical-offset="7159" max-vertical-offset="18570">
+              <caret line="500" column="18" selection-start-line="500" selection-start-column="18" selection-end-line="500" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -397,19 +391,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7647057" vertical-offset="642" max-vertical-offset="5025">
-          <caret line="59" column="53" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="53" />
+        <state vertical-scroll-proportion="-4.7647057" vertical-offset="762" max-vertical-offset="5025">
+          <caret line="67" column="81" selection-start-line="67" selection-start-column="74" selection-end-line="67" selection-end-column="81" />
           <folding>
-            <marker date="1424465039000" expanded="true" signature="2369:2522" placeholder="..." />
-            <marker date="1424465039000" expanded="true" signature="2462:2490" placeholder="..." />
+            <marker date="1424465600000" expanded="true" signature="2369:2522" placeholder="..." />
+            <marker date="1424465600000" expanded="true" signature="2462:2490" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19389111" vertical-offset="8194" max-vertical-offset="18570">
-          <caret line="556" column="0" selection-start-line="556" selection-start-column="0" selection-end-line="556" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.45285526" vertical-offset="7159" max-vertical-offset="18570">
+          <caret line="500" column="18" selection-start-line="500" selection-start-column="18" selection-end-line="500" selection-end-column="18" />
           <folding />
         </state>
       </provider>
