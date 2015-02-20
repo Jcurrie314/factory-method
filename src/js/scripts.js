@@ -83,15 +83,6 @@ $(".overlay").click(function () {
 });
 
 /********************* Rollovers *********************/
-$("#brand")
-    .mouseover(function () {
-        var src = $(this).attr("src").match(/[^\.]+/) + "over.gif";
-        $(this).attr("src", src);
-    })
-    .mouseout(function () {
-        var src = $(this).attr("src").replace("over.gif", ".gif");
-        $(this).attr("src", src);
-    });
 
 
 /***************** Smooth Scrolling ******************/

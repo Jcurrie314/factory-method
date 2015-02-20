@@ -12,14 +12,18 @@
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
     <meta name="author" content=""/>
+    <link rel="icon" type="image/png" href="favicon.png">
     <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css"/>
+    <link rel="stylesheet" type="text/css" href="css/content.css"/>
     <script src="js/modernizr.custom.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/jquery.fancybox.css" rel="stylesheet">
     <link href="css/flickity.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,400,300,700' rel='stylesheet' type='text/css'>
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/queries.css" rel="stylesheet">
     <!-- Facebook and Twitter integration -->
@@ -45,14 +49,13 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 <!-- open/close -->
-<a href="#" id="brand-static"><img src="img/logo.png" alt="FM Logo" width="60" class="animated fadeInDown"></a>
+<a href="#" id="brand-static"><img src="img/logo.png" alt="FM Logo" width="60"></a>
 <header>
     <section class="hero">
         <div class="texture-overlay"></div>
         <div class="container">
             <div class="row nav-wrapper">
-                <div class="col-md-10 col-sm-6 col-xs-6 text-left">
-                </div>
+                <div class="col-md-10 col-sm-6 col-xs-6 text-left"></div>
                 <div class="col-md-2 col-sm-6 col-xs-6 text-right navicon">
                     <p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
                 </div>
@@ -69,12 +72,31 @@
         </div>
     </section>
 </header>
+<!--
 <section class="video" id="about">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1><a href="http://www.youtube.com/embed/9No-FiEInLA?autoplay=1&wmode=opaque&fs=1"
+                <h1><a href=""
                        class="youtube-media"><i class="fa fa-play-circle-o"></i> Watch the Video</a></h1>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>We seek to make your products a reality</h1>
+
+                <p>The thrill of innovating is all to often dampened by the painful manufacturing process. There is a
+                    large divide growing between the technology being developed by entrepreneurs and the manufacturing
+                    process they rely on. We seek to bring the technology behind product manufacturing up to speed with
+                    your product. </p>
+
+                <p><a href="#updates" class="arrow-btn">Get more information <i class="fa fa-long-arrow-right"></i></a>
+                </p>
             </div>
         </div>
     </div>
@@ -86,7 +108,7 @@
                 <div class="features-bg">
                     <div class="texture-overlay"></div>
                     <div class="features-img wp1">
-                        <img src="img/html5-logo.png" alt="HTML5 Logo">
+                        <i class="fa fa-5x fa-cogs color-white"></i>
                     </div>
                 </div>
             </div>
@@ -94,35 +116,20 @@
                 <div class="features-slider">
                     <ul class="slides" id="featuresSlider">
                         <li>
-                            <h1>The Fore-front of Design &amp; Technology</h1>
+                            <h1>Working directly with the best manufacturers</h1>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum
-                                consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                                primis in faucibus.</p>
+                            <p>We have personal relationships with the best manufacturers around the globe. This ensures
+                                you get the highest quality products at an affordable price.</p>
 
-                            <p><a href="#features" class="arrow-btn">Find out why this freebie rocks! <i
-                                class="fa fa-long-arrow-right"></i></a></p>
                         </li>
                         <li>
-                            <h1>Multi-Purpose User Centric Design</h1>
+                            <h1>Product specific accomodations</h1>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum
-                                consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                                primis in faucibus.</p>
+                            <p>We work directly with each customer allowing us to manufacture the exact product you
+                                expect.</p>
 
-                            <p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this
-                                freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
                         </li>
-                        <li>
-                            <h1>Made with Love, Released for Free</h1>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum
-                                consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                                primis in faucibus.</p>
-
-                            <p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this
-                                freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -139,36 +146,39 @@
                         <i class="fa fa-desktop"></i>
                     </div>
                     <div class="feature-content">
-                        <h1>Responsive</h1>
+                        <h1>Transparent</h1>
 
-                        <p>Built using HTML5/CSS3 and jQuery, and built using one of the world's most powerful CSS
-                            frameworks available, Bootstrap.</p>
+                        <p>We let you monitor the entire process, from product submission to delivery. There are no
+                            hidden costs or sketchy contacts that we meet in back alleys. We'll even tell you what we
+                            ate for lunch if you want.</p>
                         <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i
                             class="fa fa-chevron-circle-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4 feature-2 wp2 delay-05s">
                     <div class="feature-icon">
-                        <i class="fa fa-flash"></i>
+                        <i class="fa fa-glass"></i>
                     </div>
                     <div class="feature-content">
-                        <h1>Multi-Purpose</h1>
+                        <h1>Stress-free</h1>
 
-                        <p>Perfect if you run your own start-up, product or service. Boxify can showcase your business
-                            converting your visits to income.</p>
+                        <p>We handle all the stressful components of getting an item built, allowing you to focus on
+                            other things, maybe even your next product. So grab a drink, preferably a gin and tonic, and
+                            relax.</p>
                         <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i
                             class="fa fa-chevron-circle-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4 feature-3 wp2 delay-1s">
                     <div class="feature-icon">
-                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-tachometer"></i>
                     </div>
                     <div class="feature-content">
-                        <h1>Absolutely Free</h1>
+                        <h1>Powerful</h1>
 
-                        <p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to
-                            thank me, simply <a href="http://peterfinlan.com/">buy me a beer</a>. </p>
+                        <p>Our services allows you to monitor every step of the process. The dashboard gives you the
+                            most important information you need to know about the manufacturing process. Seriously, it's
+                            creepy how much you will know about the process. </p>
                         <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i
                             class="fa fa-chevron-circle-right"></i></a>
                     </div>
@@ -178,6 +188,7 @@
         </div>
     </div>
 </section>
+<!--
 <section class="showcase">
     <div class="showcase-wrap">
         <div class="texture-overlay"></div>
@@ -225,29 +236,35 @@
         </div>
     </div>
 </section>
+-->
 
-<section class="screenshots-intro">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Packed Full of Powerful Features</h1>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut
-                    sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-
-                <p><a href="#screenshots" class="arrow-btn">See the screenshots! <i class="fa fa-long-arrow-right"></i></a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="download" id="download">
+<section class="updates" id="updates">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center wp4">
-                <h1>Seen Enough?</h1>
-                <a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i
-                    class="fa fa-download"></i></a>
+                <div class="mockup-content">
+                    <div class="morph-button morph-button-inflow morph-button-inflow-1">
+                        <button type="button"><span>Stay updated</span></button>
+                        <div class="morph-content">
+                            <div>
+                                <div class="content-style-form content-style-form-4">
+                                    <h2 class="morph-clone">Stay updated</h2>
+
+                                    <form>
+                                        <p><label>Your Email Address</label><input type="text"/><span>We promise we won't sell your email...... like, for real, we won't</span>
+                                        </p>
+
+                                        <p>
+                                            <button>Subscribe me</button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- morph-button -->
+                </div>
+
             </div>
         </div>
     </div>
@@ -257,11 +274,10 @@
         <div class="row">
             <div class="col-md-5">
                 <h1 class="footer-logo">
-                    <img src="img/logo-blue.png" alt="Footer Logo Blue">
+                    <img src="img/logo-green.png" id="footer-logo" alt="Footer Logo Green">
                 </h1>
 
-                <p>© Boxify 2015 - <a href="http://tympanus.net/codrops/licensing/">Licence</a> - Designed &amp;
-                    Developed by <a href="http://www.peterfinlan.com/">Peter Finlan</a></p>
+                <p>© Factory Method 2015 - <a href="http://tympanus.net/codrops/licensing/">Licence</a>
             </div>
             <div class="col-md-7">
                 <ul class="footer-nav">
@@ -296,34 +312,21 @@
 <script src="js/waypoints.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/min/scripts-min.js"></script>
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script src="js/classie.js"></script>
+<script src="js/uiMorphingButton_inflow.js"></script>
+
 <script>
-    (function (b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function () {
-                (b[l].q = b[l].q || []).push(arguments)
+    (function () {
+        new UIMorphingButton(document.querySelector('.morph-button'));
+
+        // for demo purposes only
+        [].slice.call(document.querySelectorAll('form button')).forEach(function (bttn) {
+            bttn.addEventListener('click', function (ev) {
+                ev.preventDefault();
             });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');
+        });
+    })();
 </script>
-<script>
-    var lastScrollTop = 0;
-    $(window).scroll(function (event) {
-        var st = $(this).scrollTop();
-        if (st > lastScrollTop) {
-            $('#brand-link').animate({left: '-=10'}, 10);
-        } else {
-            $('#brand-link').animate({left: '+=10'}, 10);
-        }
-        lastScrollTop = st;
-    });
-</script>
+
 </body>
 </html>
